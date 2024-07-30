@@ -17,6 +17,8 @@
 		<link rel="icon" type="image/x-icon" href="images/valybaybordifavicon.png">
         <link rel="stylesheet" href="css/style1.css">
         <link href="css/style2.css" rel="stylesheet" type="text/css" media="all">
+        <link href="css/style3.css" rel="stylesheet" type="text/css" media="all">
+        <link href="css/style4.css" rel="stylesheet" type="text/css" media="all">
         <style>
             @font-face {
                 font-family: "vazir";
@@ -217,9 +219,10 @@
             };
 		</script>
         <script src="js/script1.js" defer="defer"></script>
+        <script async="async" src="js/script2.js"></script>
     </head>
     <body class="gradient">
-        <div id="section-header" class="section section-header">
+        <div id="shopify-section-header" class="shopify-section section-header">
             <style>
                 header-drawer {
                     justify-self: start;
@@ -341,8 +344,120 @@
                 </header>
             </sticky-header>
         </div>
-        <div id="section-footer" class="section">
-            <style>.footer {
+        <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
+            <section id="shopify-section-template--16275840893175__slideshow" class="shopify-section section">
+                <style>
+                    @media screen and (max-width: 749px) {
+                        #Slider-template--16275840893175__slideshow::before,
+                        #Slider-template--16275840893175__slideshow .media::before,
+                        #Slider-template--16275840893175__slideshow:not(.banner--mobile-bottom) .banner__content::before {
+                            padding-bottom: 50.0%;
+                            content: '';
+                            display: block;
+                        }
+                    }
+
+                    @media screen and (min-width: 750px) {
+                            #Slider-template--16275840893175__slideshow::before,
+                            #Slider-template--16275840893175__slideshow .media::before {
+                        padding-bottom: 50.0%;
+                        content: '';
+                        display: block;
+                        }
+                    }
+                </style>
+                <slideshow-component class="slider-mobile-gutter page-width" role="region" aria-roledescription="Carousel" aria-label="Slideshow about our brand.">
+                    <div class="slideshow__controls slideshow__controls--top slider-buttons no-js-hidden">
+                        <button type="button" class="slider-button slider-button--prev" name="previous" aria-label="Previous slide" aria-controls="Slider-template--16275840893175__slideshow">
+                            <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-caret" viewBox="0 0 10 6">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z" fill="currentColor"></path>
+                            </svg>
+                        </button>
+                        <div class="slider-counter slider-counter--dots">
+                            <div class="slideshow__control-wrapper"><button class="slider-counter__link slider-counter__link--dots link" aria-label="Load slide 1 of 3" aria-controls="Slider-template--16275840893175__slideshow"><span class="dot"></span></button><button class="slider-counter__link slider-counter__link--dots link" aria-label="Load slide 2 of 3" aria-controls="Slider-template--16275840893175__slideshow"><span class="dot"></span></button></div>
+                        </div>
+                        <button type="button" class="slider-button slider-button--next" name="next" aria-label="Next slide" aria-controls="Slider-template--16275840893175__slideshow">
+                            <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-caret" viewBox="0 0 10 6">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z" fill="currentColor"></path>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="slideshow banner banner--adapt_image grid grid--1-col slider slider--everywhere" id="Slider-template--16275840893175__slideshow" aria-live="polite" aria-atomic="true" data-autoplay="true" data-speed="3">
+                        <style>
+                            #Slide-template--16275840893175__slideshow-2 .banner__media::after {
+                                opacity: 0.0;
+                            }
+                        </style>
+                        <div class="slideshow__slide grid__item grid--1-col slider__slide" id="Slide-template--16275840893175__slideshow-2" role="group" aria-roledescription="Slide" aria-label="2 of 3" tabindex="-1">
+                            <div class="slideshow__media banner__media media"><img srcset="images/eins.jpg 375w, images/eins.jpg 550w, images/eins.jpg 750w, images/eins.jpg 1100w, images/eins.jpg 1200w" sizes="100vw" src="images/eins.jpg" loading="lazy" alt="" width="1200" height="600"></div>
+                            <div class="slideshow__text-wrapper banner__content banner__content--middle-center page-width banner--desktop-transparent">
+                            <div class="slideshow__text banner__box content-container content-container--full-width-mobile color-background-1 gradient slideshow__text--center slideshow__text-mobile--center"></div></div>
+                        </div>
+                        <style>
+                            #Slide-template--16275840893175__slideshow-3 .banner__media::after {
+                                opacity: 0.0;
+                            }
+                        </style>
+                        <div class="slideshow__slide grid__item grid--1-col slider__slide" id="Slide-template--16275840893175__slideshow-3" role="group" aria-roledescription="Slide" aria-label="3 of 3" tabindex="-1">
+                            <div class="slideshow__media banner__media media"><img srcset="images/zwei.jpg 375w, images/zwei.jpg 550w, images/zwei.jpg 750w, images/zwei.jpg 1100w, images/zwei.jpg 1200w" sizes="100vw" src="images/zwei.jpg" loading="lazy" alt="" width="1200" height="600"></div>
+                            <div class="slideshow__text-wrapper banner__content banner__content--middle-center page-width banner--desktop-transparent">
+                            <div class="slideshow__text banner__box content-container content-container--full-width-mobile color-background-1 gradient slideshow__text--center slideshow__text-mobile--center"></div></div>
+                        </div>
+                    </div>
+                </slideshow-component>
+                <style>
+                    .iframe-container{
+                        position: relative;
+                        width: 100%;
+                        padding-bottom: 56.25%; 
+                        height: 0;
+                    }
+
+                    .iframe-container iframe{
+                        position: absolute;
+                        top:5px;
+                        left: 0;
+                        width: 100%;
+                        height: 100%;
+                    }
+                </style>
+                <div class="inset-container is-article-bottom slider-mobile-gutter page-width" role="region" aria-roledescription="Carousel">
+                    <div class="iframe-container">
+                        <iframe style="border-radius:20px" width="560" height="315" src="https://drive.google.com/file/d/1-Ld1JeG2hI7iEWTWOfkUGHe4i-cQdxwa/preview" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+                    </div>
+                </div>
+            </section>
+            <div dir="rtl" id="shopify-section-template--16275840893175__image-with-text-2" class="shopify-section section">
+                <style>
+                    .section-template--16275840893175__image-with-text-2-padding {
+                        padding-top: 0px;
+                        padding-bottom: 57px;
+                    }
+
+                    @media screen and (min-width: 750px) {
+                        .section-template--16275840893175__image-with-text-2-padding {
+                            padding-top: 0px;
+                            padding-bottom: 76px;
+                        }
+                    }
+                </style>
+                <div class="image-with-text image-with-text--no-overlap page-width isolate collapse-corners section-template--16275840893175__image-with-text-2-padding">
+                    <div class="image-with-text__grid grid grid--gapless grid--1-col grid--3-col-tablet">
+                        <div class="image-with-text__media-item image-with-text__media-item--small image-with-text__media-item--bottom grid__item">
+                            <div class="image-with-text__media image-with-text__media--adapt gradient color-accent-1 global-media-settings media" style="padding-bottom: 110.33138401559455%;"><img srcset="images/valybaybordiimg.jpg 165w, images/valybaybordiimg.jpg 360w, images/valybaybordiimg.jpg 535w, images/valybaybordiimg.jpg 750w, images/valybaybordiimg.jpg 1026w" src="images/valybaybordiimg.jpg" sizes="(min-width: 1200px) 550px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)" alt="" loading="lazy" width="1026" height="1132"></div>
+                        </div>
+                        <div class="center image-with-text__text-item grid__item">
+                            <div dir="rtl" id="ImageWithText--template--16275840893175__image-with-text-2" class="center image-with-text__content image-with-text__content--bottom image-with-text__content--desktop-center image-with-text__content--mobile-center image-with-text__content--adapt gradient color-accent-1 content-container">
+						<h2>ولی‌اله بایبوردی</h2>
+                                <a href="about" class="button button--primary">درباره</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <div id="shopify-section-footer" class="shopify-section">
+            <style data-shopify="">.footer {
                 margin-top: 0px;
                 }
                 .section-footer-padding {
@@ -362,6 +477,46 @@
             <footer dir="rtl" class="footer color-background-2 gradient section-footer-padding">
                 <div class="footer__content-top page-width">
                     <div class="footer__blocks-wrapper grid grid--1-col grid--2-col grid--4-col-tablet ">
+                        <div class="footer-block grid__item">
+                            <div class="footer-block__details-content footer-block-image center"><img srcset="images/valy.png, images/valy.png 2x" src="images/valy.png" alt="" loading="lazy" width="2785" height="2818" style="max-width: min(100%, 155px);"></div>
+							<ul class="list-unstyled list-social footer__list-social centered" role="list">
+								<li class="list-social__item">
+									<a href="https://sherepaak.com/poets/679" class="link list-social__link">
+									شعر‌پاک
+									</a>
+								</li>
+								<li class="list-social__item">
+									<a href="https://www.shereiran.ir/site/page/39?userid=1039" class="link list-social__link">
+									شعر‌ایران
+									</a>
+								</li>
+								<li class="list-social__item">
+									<a href="https://sherenab.com/poet/8875/%D9%88%D9%84%DB%8C-%D8%A7%D9%84%D9%87-%D8%A8%D8%A7%DB%8C%D8%A8%D9%88%D8%B1%D8%AF%DB%8C/posts/2" class="link list-social__link">
+									شعر‌ناب
+									</a>
+								</li>
+								<li class="list-social__item">
+									<a href="https://2000.blogsazan.com/" class="link list-social__link">
+									بلاگ‌سازان
+									</a>
+								</li>
+								<li class="list-social__item">
+									<a href="http://anoosha96.blogfa.com/tag/%D9%88%D9%84%DB%8C-%D8%A7%D9%84%D9%87-%D8%A8%D8%A7%DB%8C%D8%A8%D9%88%D8%B1%D8%AF%DB%8C" class="link list-social__link">
+									انوشا
+									</a>
+								</li>
+								<li class="list-social__item">
+									<a href="https://sedayemoallem.ir/%DB%8C%D8%A7%D8%AF%D8%AF%D8%A7%D8%B4%D8%AA/item/12654-%D8%A8%D8%B4%D8%B1-%D8%B1%D8%A7-%D8%A2%D8%B2%D9%85%D9%88%D9%86%DB%8C-%D8%B3%D9%84%D8%B7%D9%86%D8%AA-%D8%A8%D8%B1-%D9%86%D9%81%D8%B3-%D8%AE%D9%88%D8%AF-%DA%AF%D9%88%DB%8C%D8%A7" class="link list-social__link">
+									صدای‌معلم
+									</a>
+								</li>
+								<li class="list-social__item">
+									<a href="https://irafta.com/poembooks.aspx?id=5977" class="link list-social__link">
+									شاعران‌پارسی‌زبان
+									</a>
+								</li>
+							</ul>
+						</div>
                         <div class="footer-block grid__item">
                             <div class="footer-block__details-content rte">
                                 <p align="justify">اندک ذوق و قریحه ادبی خود را مدیون زندگی دوران کودکی خود در سرسبز‌ترین جنگل‌ها و مناطق کوهستانی شهرستان ارسباران (اهر) در استان آذربایجان شرقی، هستم. منطقه‌ای با مناظر شگفت‌انگیز، جاذبه‌های تاریخی، پوشش گیاهی و جانوری منحصر به فرد که با ترکیب احساس عشق، ایمان و امید شاعر را به تفکر و سیر در انفس دعوت می‌نماید.
